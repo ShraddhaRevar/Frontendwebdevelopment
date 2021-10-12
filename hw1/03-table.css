@@ -3,4 +3,40 @@
     - rgb alpha value of the color above
 */
 
-/* Add your code here */
+  table{
+      border-left: ridge gray;
+      border-right: ridge gray;
+      border-top: ridge gray;
+      border-collapse: collapse;
+    
+  } 
+
+  th, td {
+    border-bottom:1px solid grey;
+  }
+
+  th {
+    background-color:teal;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  tr:hover {
+      background-color:rgb(221, 247, 247);
+    }
+
+  td{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size:large;
+
+  }
+
+  th, td {
+    padding: 15px;
+    text-align: center;
+  }
+
+  tr>td:nth-child(2){
+      text-align: left;
+  }
+  

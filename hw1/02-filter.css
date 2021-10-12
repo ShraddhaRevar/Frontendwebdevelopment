@@ -1,1 +1,23 @@
-/* Add your code here */
+#i2{
+    filter: grayscale();
+}
+#i3{
+    filter:blur(2px);
+}
+#i4{
+    filter:invert();
+}
+#i5{
+    filter:brightness(230%);
+}
+#i6{
+    filter:saturate(300%);
+}
+#i7{
+    filter:sepia();
+}
+#i8
+{
+    -webkit-filter: blur(5px) saturate(300%);
+    filter: blur(5px) saturate(300%);
+}

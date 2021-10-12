@@ -9,7 +9,56 @@
     <link rel="stylesheet" href="04-form.css" />
   </head>
   <body>
-    <!-- 04 - Form Exercise -->
-    <!-- Add your code below -->
+    <div class="container">
+      <form method="POST" id=form1>
+       <h1 align="center"> Intro Survey </h1>
+  
+      <label for ="name" id="n1" >Name (required)</label> 
+      <br>
+      <input type="text" id="name" required >
+      <br>
+  
+      <label for ="email" id="e1" required>Email (required)</label>
+      <br>
+      <input type="text" id="email" required/>
+      <br>
+  
+       <label for="s1" id="s1">Registration Status</label>
+       <br>
+       <select aria-label="status">
+          <option value="" disabled selected >Choose an option</option>
+          <option value="Registered">Registered</option>
+          <option value="Pending">Pending</option>
+          <option value="Waitlist">Waitlist</option>
+       </select>
+       <br>
+       
+       <p id="cs">Class Selection</p>
+       <input type="radio" id="id1" name="class">
+       <label for="id1">CS 410P</label>
+       <input type="radio" id="id2" name="class" value="CSS"> 
+       <label for="id2">CS 510</label>
+  
+       <p id="course">Have you taken any of the following courses?</p>
+       <input type="checkbox" id="PL" name="PL" value="PL">
+       <label for="PL"> Programming Language</label><br>
+       <input type="checkbox" id="OS" name="OS" value="OS">
+       <label for="OS"> Operating System</label><br>
+       <input type="checkbox" id="Fullstack" name="Fullstack" value="Fullstack">
+       <label for="Fullstack"> Full stack web development</label><br>
+       <br>
+  
+       <label for="s2" id="s2">Anything Else?</label>
+       <br>
+       <textarea name="suggestion" aria-label="suggestion" placeholder="Write your suggestions or questions" rows="5" columns="15"></textarea>
+       <br>
+
+       <button type="button" class="button1" id="bt1"> <label for="bt1"> Submit</label> </button>
+       <button type="button" class="button2" id="bt2"> <label for="bt2"> Reset</label> </button>
+  
+       
+  
+      </div>
+      </form>
   </body>
 </html>
