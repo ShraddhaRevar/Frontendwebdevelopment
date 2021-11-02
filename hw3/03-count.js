@@ -1,3 +1,10 @@
-// Enter your code here
+function highlightSearch(text){
+    var sel = new Mark(document.querySelector(".select"));
 
-console.log('Enter your code here');
+    sel.unmark();
+
+    sel.mark(
+        document.getElementById("query").value,
+        { className: 'a' + text }
+    );
+    }

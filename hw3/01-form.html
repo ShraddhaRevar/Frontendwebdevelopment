@@ -6,14 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>JavaScript Form Exercise</title>
     <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="04-form.css" />
     <script defer src="01-form.js"></script>
   </head>
   <body class="bg-dark text-dark">
     <main>
+      <div class="container">
       <h1>Contact Form</h1>
       <form action="">
         <!-- Step 1 - Insert your previous form here -->
         <!-- Step 2 - Address any responsiveness and/or accessibility issues -->
+  
+      <label for ="name" id="n1" >Name (required)</label> 
+      <br>
+      <input type="text" required="required" id="name">
+      <br>
+  
+      <label for ="email" id="e1" required>Email (required)</label>
+      <br>
+      <input type="text" required="required" id="email">
+      <br>
+  
+       
+      <div class="RegStatdropdown RegStatdropdown-class">
+       <label for="s1" id="s1">Registration Status</label>
+       <br>
+       <select aria-label="status">
+          <option value="" disabled selected >Choose an option</option>
+          <option value="Registered">Registered</option>
+          <option value="Pending">Pending</option>
+          <option value="Waitlist">Waitlist</option>
+       </select>
+       <br>
+       </div>
+       
+       <div>
+       <fieldset>
+       <legend id="cs">Class Selection</legend>
+       <div class="Csel select" id="select" value="sel">
+       <input type="radio" id="cs1" name="class" value="CS 410">
+       <label for="id1">CS 410P</label>
+       <input type="radio" id="cs2" name="class" value="CS 510"> 
+       <label for="id2">CS 510</label>
+      </fieldset>
+      </div>
+
+       <p id="course">Have you taken any of the following courses?</p>
+       <input type="checkbox" id="PL" name="PL" value="Programming Languages">
+       <label for="PL"> Programming Language</label><br>
+       <input type="checkbox" id="OS" name="OS" value="Operating System">
+       <label for="OS"> Operating System</label><br>
+       <input type="checkbox" id="Fullstack" name="Fullstack" value="Full Stack Web Development">
+       <label for="Fullstack"> Full stack web development</label><br>
+       <br>
+  
+       <label for="s2" id="s2">Anything Else?</label>
+       <br>
+       <textarea name="suggestion" id="textarea" aria-label="suggestion" placeholder="Write your suggestions or questions" rows="5" columns="15"></textarea>
+       <br>
+
+       <input type="button" class="button1" id="bt1" value="Submit"/>
+       <input type="button" class="button2" id="bt1" value="Reset"/>
+       
+  
+      </div>
       </form>
     </main>
   </body>
