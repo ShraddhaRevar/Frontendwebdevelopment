@@ -1,0 +1,29 @@
+.control{
+    display:grid;
+    align-content: center;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 90px;
+    padding-left: 500px;
+    font-size: xx-large;
+    color: teal;
+
+}
+
+.input{
+    width: 50%;
+    padding: 5px;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.click{
+    width: 100px;
+    margin-left: 700px;
+    margin-top: 10px;
+    height: 30px;
+    
+}

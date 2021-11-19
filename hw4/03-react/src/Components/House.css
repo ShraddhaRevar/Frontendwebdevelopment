@@ -1,0 +1,13 @@
+.charts{
+    width: 450px;
+    height: 350px;
+    margin-left: 550px;
+}
+
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    padding-bottom: 20px;
+    color:rgb(3, 61, 3);
+}
+
